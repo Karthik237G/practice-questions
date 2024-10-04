@@ -27,3 +27,13 @@ def fun(n,arr):
 num=5
 arr=[4,5,8,6,7,9,10]
 fun(num,arr)
+
+#product of digits in string
+def fun(n):
+    prod=1
+    for digit in str(n):
+        prod=prod*int(digit)
+    print(prod)
+n=1589
+fun(n)
+
