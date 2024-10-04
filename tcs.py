@@ -17,3 +17,13 @@ if __name__=='__main__':
   num=50
   fun(50)
 
+#count of greater numbers
+def fun(n,arr):
+    count=0
+    for i in range(len(arr)):
+        if arr[i]>n:
+            count+=1
+    print(count)
+num=5
+arr=[4,5,8,6,7,9,10]
+fun(num,arr)
