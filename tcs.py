@@ -16,7 +16,17 @@ def fun(num):
 if __name__=='__main__':
   num=50
   fun(50)
-
+'''c++ code for the same
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int k=(1<<(int)floor(log2(n))+1)-1;
+    cout<<(k^n);
+}
+'''
 #count of greater numbers
 def fun(n,arr):
     count=0
